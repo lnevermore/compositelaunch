@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="Composite_Launch_Feature"
+      label="Composite_Launch_Feature"
+      version="1.0.0.qualifier">
+
+   <description url="http://www.example.com/description">
+      Composite Launch Configuration for launching many configurations at the same time
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      Malkov Matvey for Xored Co. 2013
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      No license provided
+   </license>
+
+   <plugin
+         id="Composite_Launch_Plug-In"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="Composite_Launch_Plug-In_UI"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+</feature>

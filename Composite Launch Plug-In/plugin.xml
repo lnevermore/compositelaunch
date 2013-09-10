@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+
+<!--non ui -->
+	<extension point="org.eclipse.debug.core.launchConfigurationTypes">
+    <launchConfigurationType
+        name="%composite_launch_name"
+        delegate="com.xored.test.malkov.model.CompositeLaunchConfigurationDelegate"
+        modes="run, debug"
+        delegateDescription="%launchConfigurationType.delegateDescription"                     
+        id="com.xored.test.malkov.composite">        
+    </launchConfigurationType>
+</extension>
+
+</plugin>

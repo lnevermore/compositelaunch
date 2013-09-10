@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+
+<!--ui -->
+<extension point="org.eclipse.debug.ui.launchConfigurationTypeImages">
+    <launchConfigurationTypeImage
+        icon="icons/composite_small.png"
+        configTypeID="com.xored.test.malkov.composite"
+        id="org.eclipse.jdt.debug.ui.launchConfigurationTypeImage.composite">
+    </launchConfigurationTypeImage>
+</extension>
+
+<!--ui -->
+<extension point="org.eclipse.debug.ui.launchConfigurationTabGroups">
+    <launchConfigurationTabGroup
+        type="com.xored.test.malkov.composite"
+        class="com.xored.test.malkov.ui.launchdialog.CompositeLaunchTabGroup"
+        id="com.xored.test.malkov.CompositeTabGroup">
+    </launchConfigurationTabGroup>
+</extension>
+</plugin>
